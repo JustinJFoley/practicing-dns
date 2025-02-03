@@ -22,10 +22,11 @@ The objective is to build a practical understanding of DNS records, including A-
 
 5)  Return to Client-1 and try to ping “mainframe” again. This time, the ping should succeed, indicating the DNS record was successfully added.
 
-  <h4>Key Learning:</h4>
-You learn how to create and assign an A-record (Address record) to a hostname and map it to an IP address within a DNS server.
+    <h3>Key Learning:</h3>
+<h4>You learn how to create and assign an A-record (Address record) to a hostname and map it to an IP address within a DNS server.</h4>
 
-
+ 
+![image](https://github.com/user-attachments/assets/4cb242a6-48d0-4e9f-a69e-d3998f5c8064)
    <h2>2. Local DNS Cache Exercise</h2>
 
   <h4>Steps:</h4>
@@ -42,9 +43,11 @@ You learn how to create and assign an A-record (Address record) to a hostname an
 
 6)  Attempt to ping mainframe once more. The new DNS record (pointing to 8.8.8.8) should now be resolved.
 
-  <h4>Key Learning:</h4>
-You gain an understanding of DNS caching and how to manage it using the ipconfig command. Flushing the cache helps you clear outdated or incorrect DNS entries.
+    <h3>Key Learning:</h3>
+<h4>You gain an understanding of DNS caching and how to manage it using the ipconfig command. Flushing the cache helps you clear outdated or incorrect DNS entries.</h4>
 
+
+![image](https://github.com/user-attachments/assets/c28c776a-7401-4d9a-9204-9f4e44a24a90)
 
    <h2>3. CNAME Record Exercise</h2>
 
@@ -54,5 +57,13 @@ You gain an understanding of DNS caching and how to manage it using the ipconfig
 2)  On Client-1, attempt to ping “search”. You'll notice that it resolves the CNAME record to Google's IP address.
 3)  Use nslookup on Client-1 to query the “search” record and observe the CNAME result pointing to www.google.com.
 
-  <h4>Key Learning:</h4>
-This exercise teaches you how to configure CNAME (Canonical Name) records, which allow one hostname to act as an alias for another. It also reinforces the concept of how DNS resolves multiple types of records.
+  <h3>Key Learning:</h3>
+<h4></h4>This exercise teaches you how to configure CNAME (Canonical Name) records, which allow one hostname to act as an alias for another. It also reinforces the concept of how DNS resolves multiple types of records.</h4>
+
+
+![image](https://github.com/user-attachments/assets/d33c4f68-935c-4090-83c0-9a09ad5525e2)
+
+<h2>Conclusion</h2>
+By completing these exercises, you develop an intuitive understanding of common DNS record types and how DNS resolution works on both the client and server sides. You also gain hands-on experience with managing DNS caching and resolving issues related to DNS resolution.
+
+
