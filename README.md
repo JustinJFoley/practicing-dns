@@ -1,6 +1,7 @@
 <p align="center">
 
-  ![image](https://github.com/user-attachments/assets/12fc89ca-b2a6-49aa-93f3-f0b74e01147c)
+![image](https://github.com/user-attachments/assets/1fdc55ae-a906-431c-ac83-88612c6d3f72)
+
 
 </p>
 <h1>Building an Intuition for DNS</h1>
@@ -63,7 +64,7 @@ The objective is to build a practical understanding of DNS records, including A-
 
 ![image](https://github.com/user-attachments/assets/d33c4f68-935c-4090-83c0-9a09ad5525e2)
 
-<h2>Conclusion</h2>
+<h1>Conclusion</h1>
 By completing these exercises, you develop an intuitive understanding of common DNS record types and how DNS resolution works on both the client and server sides. You also gain hands-on experience with managing DNS caching and resolving issues related to DNS resolution.
 
 
